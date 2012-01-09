@@ -1,0 +1,748 @@
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5dd582: startup date [Mon Jan 02 03:08:52 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d67067: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1d314cc] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e13ad: startup date [Mon Jan 02 03:10:44 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d67067: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1d314cc] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5dd582: startup date [Mon Jan 02 03:13:29 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d67067: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1d314cc] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@64ab4d: startup date [Mon Jan 02 03:13:50 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b533b8: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@c37f31] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e13ad: startup date [Mon Jan 02 03:13:57 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b6d6ab: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@31d5e2] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@12a55aa: startup date [Mon Jan 02 03:14:19 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b6d6ab: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@31d5e2] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2200d5: startup date [Mon Jan 02 03:15:16 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14eaec9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@93f13f] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2200d5: startup date [Mon Jan 02 03:16:26 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14eaec9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@c5da6] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2200d5: startup date [Mon Jan 02 03:16:36 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14eaec9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@c5da6] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2200d5: startup date [Mon Jan 02 03:39:12 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3468f4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@cf935a] of Hibernate SessionFactory for HibernateTransactionManager
+INFO AWT-EventQueue-0 org.springframework.context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@64ab4d: startup date [Tue Jan 03 01:48:06 ICT 2012]; root of context hierarchy
+INFO AWT-EventQueue-0 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\spring-ctx.xml]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Documents and Settings\nia\My Documents\NetBeansProjects\Ugc\conf\jdbc.properties]
+INFO AWT-EventQueue-0 org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d67067: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,kategoriDAOImpl,masterService,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sessionFactory,transactionManager]; root of factory hierarchy
+INFO AWT-EventQueue-0 org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Hibernate 3.5.0-Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - hibernate.properties not found
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO AWT-EventQueue-0 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO AWT-EventQueue-0 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - configuring from url: file:/C:/Documents%20and%20Settings/nia/My%20Documents/NetBeansProjects/Ugc/conf/hibernate.cfg.xml
+INFO AWT-EventQueue-0 org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.ugc.model.Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.annotations.EntityBinder - Bind entity com.ugc.model.Kategori on table Kategori
+INFO AWT-EventQueue-0 org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO AWT-EventQueue-0 org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.0.51b-community-nt-log
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.10 ( Revision: ${svn.Revision} )
+INFO AWT-EventQueue-0 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+INFO AWT-EventQueue-0 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO AWT-EventQueue-0 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Statistics: enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO AWT-EventQueue-0 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryImpl - building session factory
+INFO AWT-EventQueue-0 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+INFO AWT-EventQueue-0 org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - table found: ugc.kategori
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, keterangan, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary, nama]
+INFO AWT-EventQueue-0 org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+INFO AWT-EventQueue-0 org.springframework.orm.hibernate3.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1d314cc] of Hibernate SessionFactory for HibernateTransactionManager
